@@ -9,7 +9,7 @@
 		}while ( start != -1 && isMulti);
 		return sb;
 	}
-	
+
 	/**
 	 * 複製table至指定cursor
 	 * @param doc
