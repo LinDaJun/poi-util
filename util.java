@@ -33,7 +33,6 @@
         return targetTable;
 	}
 
-	
 	/**
 	 * 複製table至doc的最尾處
 	 * @param doc
@@ -78,6 +77,7 @@
 	        copyTableCell(tCell, sCell);
 	    }
 	}
+
 	/**
 	 * 複製sourceCell至targetCell
 	 * @param targetCell
@@ -115,6 +115,7 @@
             copyRun(tarRun, sRun);
         }
     }
+
 	/**
 	 * 複製sourceRun至targetRun
 	 * @param targetRun
